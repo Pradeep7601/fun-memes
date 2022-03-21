@@ -1,0 +1,63 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+    background: black;
+    color: white;
+    grid-template-rows:10% 90%;
+}
+#button{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 100px;
+    height: 20px;
+    text-align: center;
+    background: white;
+    color: black;
+    transition: 250ms;
+    margin-left: 3%;
+}
+#button:hover{
+    transform: scale(1.2);
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+#memes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    padding: 10px;
+    margin-left: 10px;
+}
+#memes div{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    height: auto;
+    width: 250px;
+}
+#memes div h4{
+    padding: 5px;
+    text-align: center;
+    background: none;
+    color: white;
+    margin: 0;
+    border-radius: 5px;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif 'Segoe UI';
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    transition: 200ms;
+}
+img:hover{
+    border-radius: 0px;
+    transform: scale(1.2);
+}
